@@ -15,8 +15,11 @@
 	<extension library="service.py" point="xbmc.service" start="login" />
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary>Unofficial Spotify music plugin for Kodi</summary>
-        <description>Requires a Spotify premium account.</description>
-        <disclaimer>This product uses SPOTIFY(R) CORE but is not endorsed, certified or otherwise approved in any way by Spotify. Spotify is the registered trade mark of the Spotify Group.</disclaimer>
+        <summary lang="en">Unofficial Spotify music plugin for Kodi</summary>
+        <description lang="en">Requires a Spotify premium account.</description>
+		<disclaimer lang="en">This product uses SPOTIFY(R) CORE but is not endorsed, certified or otherwise approved in any way by Spotify. Spotify is the registered trade mark of the Spotify Group.</disclaimer>
+		<summary lang="es">Plugin de música no oficial de Spotify para Kodi</summary>
+        <description lang="es">Requiere una cuenta premium de Spotify.</description>
+        <disclaimer lang="es">Este producto utiliza SPOTIFY (R) CORE pero no está respaldado, certificado ni aprobado de ninguna otra manera por Spotify. Spotify es la marca registrada del Grupo Spotify.</disclaimer>
     </extension>
 </addon>
